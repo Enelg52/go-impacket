@@ -3,9 +3,9 @@ package smb2
 import (
 	"encoding/hex"
 	"errors"
-	"go-impacket/pkg/encoder"
-	"go-impacket/pkg/ms"
-	"go-impacket/pkg/smb"
+	"github.com/Enelg52/go-impacket/pkg/encoder"
+	"github.com/Enelg52/go-impacket/pkg/ms"
+	"github.com/Enelg52/go-impacket/pkg/smb"
 	"os"
 )
 

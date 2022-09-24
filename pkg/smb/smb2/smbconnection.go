@@ -4,12 +4,12 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
-	"go-impacket/pkg/common"
-	"go-impacket/pkg/encoder"
-	"go-impacket/pkg/gss"
-	"go-impacket/pkg/ms"
-	"go-impacket/pkg/ntlm"
-	"go-impacket/pkg/smb"
+	"github.com/Enelg52/go-impacket/pkg/common"
+	"github.com/Enelg52/go-impacket/pkg/encoder"
+	"github.com/Enelg52/go-impacket/pkg/gss"
+	"github.com/Enelg52/go-impacket/pkg/ms"
+	"github.com/Enelg52/go-impacket/pkg/ntlm"
+	"github.com/Enelg52/go-impacket/pkg/smb"
 	"net"
 )
 

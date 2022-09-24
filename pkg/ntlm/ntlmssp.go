@@ -8,7 +8,7 @@ import (
 	"crypto/md5"
 	"crypto/rand"
 	"encoding/binary"
-	"go-impacket/pkg/encoder"
+	"github.com/Enelg52/go-impacket/pkg/encoder"
 	"hash"
 	"time"
 )

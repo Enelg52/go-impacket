@@ -4,8 +4,8 @@ package gss
 
 import (
 	"encoding/asn1"
-	"go-impacket/pkg/encoder"
-	"go-impacket/pkg/ntlm"
+	"github.com/Enelg52/go-impacket/pkg/encoder"
+	"github.com/Enelg52/go-impacket/pkg/ntlm"
 	"strconv"
 	"strings"
 )

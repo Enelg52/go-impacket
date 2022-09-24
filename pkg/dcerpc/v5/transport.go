@@ -1,7 +1,7 @@
 package v5
 
 import (
-	"go-impacket/pkg/smb/smb2"
+	"github.com/Enelg52/go-impacket/pkg/smb/smb2"
 )
 
 type Client struct {

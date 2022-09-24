@@ -3,11 +3,11 @@ package v5
 import (
 	"encoding/hex"
 	"errors"
-	"go-impacket/pkg/encoder"
-	"go-impacket/pkg/ms"
-	"go-impacket/pkg/smb"
-	"go-impacket/pkg/smb/smb2"
-	"go-impacket/pkg/util"
+	"github.com/Enelg52/go-impacket/pkg/encoder"
+	"github.com/Enelg52/go-impacket/pkg/ms"
+	"github.com/Enelg52/go-impacket/pkg/smb"
+	"github.com/Enelg52/go-impacket/pkg/smb/smb2"
+	"github.com/Enelg52/go-impacket/pkg/util"
 )
 
 // 此文件提供ms-rpce封装

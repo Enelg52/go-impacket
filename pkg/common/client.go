@@ -1,21 +1,19 @@
 package common
 
-// 客户端连接封装
-
 import (
 	"bufio"
 	"bytes"
 	"encoding/binary"
 	"encoding/hex"
 	"errors"
-	"go-impacket/pkg/encoder"
+	"github.com/Enelg52/go-impacket/pkg/encoder"
 	"io"
 	"log"
 	"net"
 	"runtime/debug"
 )
 
-// 会话结构
+// Client struct
 type Client struct {
 	IsSigningRequired bool
 	IsAuthenticated   bool
@@ -29,7 +27,7 @@ type Client struct {
 	trees             map[string]uint32
 }
 
-// SMB连接参数
+// ClientOptions struct
 type ClientOptions struct {
 	Host        string
 	Port        int
